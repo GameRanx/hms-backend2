@@ -31,15 +31,13 @@ mongoose.connect("mongodb+srv://ss:12345@cluster0.wvlnlyy.mongodb.net/schooldb",
 
 const db = mongoose.connection;
 
-//open connection
-//normal funtion also can use
-/*
+
 db.once('open',()=>{
 
     console.log("Mongodb Connection Success");
 
 })
-*///
+
 
 
 
